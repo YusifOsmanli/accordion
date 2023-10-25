@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.accordion{
+    height: 500px;
+    width: 600px;
+    border: 1px solid grey;
+    border-radius: 3%;
+}
+.accordion-button{
+    width: 100.2%;
+    height: 50px;
+}
+#first_div{
+    border-radius: 3%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+code{
+    color: red;
+}
+.accordion_body{
+    display: none;
+}
+.accordion_body1{
+    display: none;
+}
+.accordion_body2{
+    display: none;
+}
